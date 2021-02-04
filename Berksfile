@@ -1,43 +1,43 @@
 source "https://api.berkshelf.com"
 
 # cookbook 'apt', github: 'opscode-cookbooks/apt'
-cookbook 'apt-chef', '~> 1.0.0'
+cookbook 'apt-chef'
 
 #cookbook 'build-essential', github: 'opscode-cookbooks/build-essential'
 cookbook 'build-essential'
 
 # cookbook 'fail2ban', github: 'opscode-cookbooks/fail2ban'
-cookbook 'fail2ban', '~> 2.3.0'
+cookbook 'fail2ban'
 
 # cookbook 'hostnames', github: 'nathantsoi/chef-cookbook-hostname'
-cookbook 'hostnames', '= 0.3.1'
+cookbook 'hostnames'
 
-cookbook 'locale', '~> 1.1.0'
+cookbook 'locale'
 
 #cookbook 'memcached', github: 'opscode-cookbooks/memcached'
-cookbook 'memcached', '~> 3.0.0'
+cookbook 'memcached'
 
 #cookbook 'mysql', github: 'opscode-cookbooks/mysql'
-cookbook 'mysql', '~> 5.6.3'
+cookbook 'mysql'
 
 #cookbook 'ntp', github: 'gmiranda23/ntp'
-cookbook 'ntp', '~> 2.0.0'
+cookbook 'ntp'
 
 #cookbook 'openssh', github: 'opscode-cookbooks/openssh'
-cookbook 'openssh', '= 1.2.2'
+cookbook 'openssh'
 
-cookbook 'postgresql', '~> 4.0.6'
+cookbook 'postgresql'
 
 # cookbook 'sudo', github: 'opscode-cookbooks/sudo'
-cookbook 'sudo', '~> 2.9.0'
+cookbook 'sudo'
 
 # cookbook 'ufw', github: 'opscode-cookbooks/ufw'
-cookbook 'ufw', '~> 1.0.0'
-cookbook 'firewall', '~> 2.5.2'
+cookbook 'ufw'
+cookbook 'firewall'
 
-cookbook 'nginx', github: 'miketheman/nginx'
+cookbook 'nginx', github: 'sous-chefs/nginx'
 
-cookbook 'users', '~> 2.0.3'
+cookbook 'users'
 
 cookbook 'rails_gem_dependencies-tlq', github: 'TalkingQuickly/rails_gem_dependencies-tlq'
 cookbook 'ruby_rbenv', github: 'fnichol/chef-rbenv'
